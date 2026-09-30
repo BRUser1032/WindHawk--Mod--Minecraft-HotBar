@@ -163,7 +163,7 @@ controlStyles:
       - CornerRadius=0
       - Height=55
       - Width=55
-      - Margin=-1,0,-13,0
+      - Margin=-1,0,-5,0
       - Background:=$IconBackground
       - BorderThickness=0
   - target: SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid, SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > ContentPresenter#ContentPresenter > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid
@@ -225,7 +225,8 @@ controlStyles:
   - target: TextBlock#DateInnerTextBlock
     styles:
       - FontWeight=Bold
-      - Margin=3,9,7,-9
+      - HorizontalAlignment=Center
+      - Margin=0,9,0,-9
       - Foreground=White
       - Visibility=visible
       - RenderTransform:=<TranslateTransform X="0" Y="-9"/>
@@ -242,7 +243,8 @@ controlStyles:
       - Width=Auto
       - FontWeight=Bold
       - FontSize=13
-      - Margin=6,-4,6,4
+      - HorizontalAlignment=Center
+      - Margin=0,-4,0,4
   - target: SystemTray.SystemTrayFrame > StackPanel#SystemTrayFrameGrid > SystemTray.OmniButton#ControlCenterButton > Grid > ContentPresenter#ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid > SystemTray.AdaptiveTextBlock#Base > TextBlock#InnerTextBlock, SystemTray.SystemTrayFrame > Grid#SystemTrayFrameGrid > SystemTray.OmniButton#ControlCenterButton > Grid > ContentPresenter#ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid > SystemTray.AdaptiveTextBlock#Base > TextBlock#InnerTextBlock
     styles:
       - Foreground=white
@@ -262,7 +264,7 @@ controlStyles:
       - Background:=<ImageBrush ImageSource="https://raw.githubusercontent.com/ramensoftware/windows-11-taskbar-styling-guide/refs/heads/main/Themes/Minecraft%20Hotbar/Assets/hotbar.png" />
       - Height=55
       - Margin=1,0,-5,0
-      - Width=auto
+      - Width=76
   - target: SystemTray.SystemTrayFrame > StackPanel#SystemTrayFrameGrid > SystemTray.Stack#NonActivatableStack > Grid#Content > SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Border#BackgroundBorder, SystemTray.SystemTrayFrame > Grid#SystemTrayFrameGrid > SystemTray.Stack#NonActivatableStack > Grid#Content > SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Border#BackgroundBorder
     styles:
       - Background:=Transparent
