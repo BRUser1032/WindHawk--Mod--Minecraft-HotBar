@@ -1,5 +1,3 @@
-
-[minecraft_hotbar_taskbar_styler_readme.md](https://github.com/user-attachments/files/32878955/minecraft_hotbar_taskbar_styler_readme.md)
 # Windhawk Mod — Minecraft Hotbar para Windows 11
 
 Deixa a barra de tarefas do Windows 11 com o visual clássico da **hotbar do Minecraft**: ícones centralizados em slots, bandeja do sistema separada à direita e indicador de aplicativo aberto ajustado dentro do slot.
