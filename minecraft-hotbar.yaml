@@ -163,7 +163,7 @@ controlStyles:
       - CornerRadius=0
       - Height=55
       - Width=55
-      - Margin=-1,0,-5,0
+      - Margin=-1,0,-13,0
       - Background:=$IconBackground
       - BorderThickness=0
   - target: SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid, SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > ContentPresenter#ContentPresenter > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid
@@ -182,6 +182,9 @@ controlStyles:
       - Background:=$IconBackground
       - BorderThickness=0
       - // System Tray > Show Desktop Button
+  - target: SystemTray.OmniButton#ControlCenterButton
+    styles:
+      - Margin=9,0,0,0
   - target: SystemTray.OmniButton#ControlCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter[1] > SystemTray.IconView > Grid > Grid
     styles:
       - Margin=-3,0,-8,0
@@ -264,7 +267,7 @@ controlStyles:
       - Background:=<ImageBrush ImageSource="https://raw.githubusercontent.com/ramensoftware/windows-11-taskbar-styling-guide/refs/heads/main/Themes/Minecraft%20Hotbar/Assets/hotbar.png" />
       - Height=55
       - Margin=1,0,-5,0
-      - Width=76
+      - Width=84
   - target: SystemTray.SystemTrayFrame > StackPanel#SystemTrayFrameGrid > SystemTray.Stack#NonActivatableStack > Grid#Content > SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Border#BackgroundBorder, SystemTray.SystemTrayFrame > Grid#SystemTrayFrameGrid > SystemTray.Stack#NonActivatableStack > Grid#Content > SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > Border#BackgroundBorder
     styles:
       - Background:=Transparent
