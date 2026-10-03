@@ -55,10 +55,13 @@ O tema **Minecraft Hotbar** é de **WasiXGamer**, publicado no guia de estilos d
 | Slot do relógio: largura | `auto` | `84` | **A confirmar** (a largura 76 foi aplicada, mas deixava a data apertada) |
 | Texto da data: alinhamento e margem | margem `3,9,7,-9` | centralizado, margem `0,9,0,-9` | Funciona (confirmado no print) |
 | Texto da hora: alinhamento e margem | margem `6,-4,6,4` | centralizado, margem `0,-4,0,4` | Funciona (confirmado no print) |
+| Ícone do app ativo (janela em foco): margem da imagem | `9,0,-10,0` (também em `ActivePointerOver` e `ActivePressed`) | `5.5,0,-5.5,0`, igual ao estado normal | **A confirmar** |
 
 **Sobreposição do slot do idioma (POR/PTB2).** No print, o slot do Wi-Fi ficava ~9 px por cima da borda do slot do idioma. Mudar a margem do próprio slot do idioma (de `-13` para `-5`) **não resolveu**: comparando os dois prints, o espaçamento entre os slots não mudou, só a posição do desenho dentro do slot (cerca de 2 px). A margem do idioma voltou ao valor original do tema (`-13`). A correção atual atua no botão vizinho (Wi-Fi), por margem, e **ainda precisa ser confirmada**.
 
 Se o espaço ficar maior ou menor que o ideal, ajuste o `9` de 1 em 1. No relógio, ajuste a largura de 4 em 4.
+
+**Ícone que andava para a direita ao abrir um app.** Nos prints, o ícone do app em foco ficava ~2,5 px mais à direita do que no estado normal, enquanto o slot e o indicador continuavam no mesmo lugar. A causa é a margem da imagem nos estados ativos (`9,0,-10,0`), que desloca ~4 px a mais que a do estado normal (`5.5,0,-5.5,0`). O estado de passar o mouse em app inativo (`InactivePointerOver`, `7,0,-7,0`) não foi alterado e não foi medido.
 
 ### Versões anteriores
 
