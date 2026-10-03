@@ -6,10 +6,10 @@ controlStyles:
   - target: Grid#IconPanel@CommonStates > Image#Icon, Taskbar.TaskListLabeledButtonPanel#IconPanel@CommonStates > Image#Icon
     styles:
       - Margin=5.5,0,-5.5,0
-      - Margin@ActiveNormal=9,0,-10,0
-      - Margin@ActivePointerOver=9,0,-10,0
+      - Margin@ActiveNormal=5.5,0,-5.5,0
+      - Margin@ActivePointerOver=5.5,0,-5.5,0
       - Margin@InactivePointerOver=7,0,-7,0
-      - Margin@ActivePressed=9,0,-10,0
+      - Margin@ActivePressed=5.5,0,-5.5,0
   - target: Grid#RootGrid > Taskbar.TaskbarBackground > Grid
     styles:
       - Background:=transparent
